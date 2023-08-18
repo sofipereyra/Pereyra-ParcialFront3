@@ -39,8 +39,6 @@ function App() {
       const authorIsValid = validateAuthor(author);
       
       if (bookIsValid && authorIsValid) {
-        console.log("Libro válido:", book);
-        console.log("Autor:", author);
         setShowCard(true);
         setError("")
       } else {
