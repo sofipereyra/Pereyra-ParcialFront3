@@ -33,10 +33,52 @@
   }
 }
 
+.heading{
+  color: rgb(63, 63, 212);
+}
+
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.error{
+  color: red;
+}
+
+.card{
+  text-align: center;
+  border: 2px solid rgb(63, 63, 212);
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  margin-top: 15px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+  margin: 15px;
+}
+
+label{
+  margin-top: 10px;
+}
+
+.input{
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.span{
+  color: rgb(113, 113, 206);
 }
